@@ -38,7 +38,7 @@ pull_translations:
 	            translations/paragon/src/i18n/messages:paragon \
 	            translations/frontend-component-footer/src/i18n/messages:frontend-component-footer \
 	            translations/frontend-component-header/src/i18n/messages:frontend-component-header \
-	            translations/staff-admin/src/i18n/messages:staff-admin
+	            translations/frontend-app-staff-admin/src/i18n/messages:frontend-app-staff-admin
 
-	$(intl_imports) frontend-platform paragon frontend-component-header frontend-component-footer staff-admin
+	$(intl_imports) frontend-platform paragon frontend-component-header frontend-component-footer frontend-app-staff-admin
 
