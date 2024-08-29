@@ -32,6 +32,7 @@ detect_changed_source_translations:
 
 # Pulls translations using atlas.
 pull_translations:
+	npm install @edx/openedx-atlas
 	mkdir src/i18n/messages
 	cd src/i18n/messages \
 	   && atlas pull $(ATLAS_OPTIONS) \
