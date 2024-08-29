@@ -9,6 +9,7 @@ transifex_temp = ./temp/babel-plugin-formatjs
 precommit:
 	npm run lint
 	npm audit
+	npm install @edx/openedx-atlas
 
 requirements:
 	npm ci
